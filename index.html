@@ -1,30 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/portfolio2.0/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio 2.0</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/portfolio2.0/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/portfolio2.0/assets/index-Cz9R_XxO.css">
-  </head>
-  <body>
-    <h1>Header</h1>
 
-    <main>
-      <h1>Hero</h1>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/portfolio2.0/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio 2.0</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/portfolio2.0/index.js"></script>
+  <link rel="stylesheet" crossorigin href="/portfolio2.0/assets/index-ASN8Tccl.css">
+</head>
+
+<body>
+  <h1>Header</h1>
+
+  <main>
+    <h1>Hero</h1>
 
 
-      <h1>About Me</h1>
+    <section class="aboutMe">
+    <div class="container">
+        <h2 class="h2_aboutMe">ABOUT <span class="span_h2_aboutMe">ME</span></h2>
 
+        <picture>
+            <source srcset="../img/about-me/mobile/img.jpg 1x, ../img/about-me/mobile/img.jpg 2x"
+                media="(min-width: 320px)" />
+            <img class="photo_aboutMe" src="../img/about-me/mobile/img.jpg" alt="photo aboutMe" />
+        </picture>
 
-      
+        <h3 class="h3_aboutMe">BIO</h3>
+        <ul class="ul_aboutMe">
+            <li>
+                <p>I'm Lloyd Jefferson, a talented programmer specializing in software development. My expertise spans
+                    various programming
+                    languages and technologies, and I am dedicated to continually enhancing my skills. I thrive on
+                    seeking
+                    unconventional
+                    and creative solutions to problems, leveraging a high level of analytical skills to effectively
+                    tackle
+                    even the most
+                    challenging tasks.
+                </p>
+            </li>
+            <li>
+                <p>Adaptable to both independent and team-oriented work, I collaborate seamlessly with
+                    colleagues,
+                    exchanging ideas and
+                    finding optimal solutions. My professional maturity enables me to navigate challenges and stressful
+                    situations with a
+                    calm demeanor, maintaining a consistently high quality of work. Committed to self-improvement, I
+                    actively engage in
+                    studying new technologies and practices to stay current with the latest innovations in the field.
+
+                </p>
+            </li>
+        </ul>
+        <h3 class="h3_aboutMe">EDUCATION</h3>
+        <ul class="ul_2_aboutMe">
+            <li class="li_2_aboutMe">
+                <svg class="icon-dot" width="24" height="24">
+                    <use href="/src/img/about-me/mobile/icons.svg#icon-dot"></use>
+                </svg>
+                <p>2018 - 2019 / Frontend Development Diploma, GoIT IT School, New York
+                </p>
+            </li>
+            <li class="li_2_aboutMe"><svg class="icon-dot" width="24" height="24">
+                    <use href="/src/img/about-me/mobile/icons.svg#icon-dot"></use>
+                </svg>
+                <p>2019 - 2020 / Advanced Web Development Certificate, GoIT IT School, New York</p>
+            </li>
+            <li class="li_2_aboutMe"><svg class="icon-dot" width="24" height="24">
+                    <use href="/src/img/about-me/mobile/icons.svg#icon-dot"></use>
+                </svg>
+                <p>2020 - 2022 / Advanced Blender Animation Techniques, Udemy</p>
+            </li>
+        </ul>
+        <h3 class="h3_aboutMe">ROLE</h3>
+        <ul class="ul_2_aboutMe">
+            <li class="li_2_aboutMe"><svg class="icon-dot" width="24" height="24">
+                    <use href="/src/img/about-me/mobile/icons.svg#icon-dot"></use>
+                </svg>Frontend development</li>
+            <li class="li_2_aboutMe"><svg class="icon-dot" width="24" height="24">
+                    <use href="/src/img/about-me/mobile/icons.svg#icon-dot"></use>
+                </svg>HeadlessCMS, Wordpress</li>
+            <li class="li_2_aboutMe"><svg class="icon-dot" width="24" height="24">
+                    <use href="/src/img/about-me/mobile/icons.svg#icon-dot"></use>
+                </svg>Blender (enjoy)</li>
+        </ul>
+    </div>
+</section>
+
+    
 <section class="tech-skills">
     <h2 class="visually-hidden">Tech Skills</h2>
     <div class="marquee">
@@ -103,20 +174,21 @@
     </div>
 </section>
 
-      <h1>My projects</h1>
+    <h1>My projects</h1>
 
-      <h1>Benefits</h1>
+    <h1>Benefits</h1>
 
-      <h1>FAQ</h1>
+    <h1>FAQ</h1>
 
-      <h1>Reviews</h1>
+    <h1>Reviews</h1>
 
-      <h1>Work together</h1>
-    </main>
+    <h1>Work together</h1>
+  </main>
 
-    <h1>Footer</h1>
-    
-    <h1>Modal</h1>
+  <h1>Footer</h1>
 
-  </body>
+  <h1>Modal</h1>
+
+</body>
+
 </html>
