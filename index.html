@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
   <script type="module" crossorigin src="/portfolio2.0/index.js"></script>
-  <link rel="stylesheet" crossorigin href="/portfolio2.0/assets/index-ASN8Tccl.css">
+  <link rel="stylesheet" crossorigin href="/portfolio2.0/assets/index-BtK4Rtiz.css">
 </head>
 
 <body>
@@ -26,72 +26,98 @@
     <section class="aboutMe">
     <div class="container">
         <h2 class="h2_aboutMe">ABOUT <span class="span_h2_aboutMe">ME</span></h2>
+        <div class="content">
+            <div class="photo">
+                <picture>
+                    <!-- Изображение для экранов до 767px -->
+                    <source srcset="../img/about-me/mobile/img.jpg 1x, ../img/about-me/mobile/img2x.jpg 2x"
+                        media="(max-width: 767px)" />
+                    <!-- Изображение для экранов от 768px и выше -->
+                    <source srcset="../img/about-me/tablet/img.jpg 1x, ../img/about-me/tablet/img2x.jpg 2x"
+                        media="(min-width: 768px)" />
+                    <!-- Изображение для экранов от 1024px и выше -->
+                    <source srcset="../img/about-me/desctop/img.jpg 1x, ../img/about-me/desktop/img2x.jpg 2x"
+                        media="(min-width: 1024px)" />
+                    <img class="photo_aboutMe" src="../img/about-me/mobile/img.jpg" alt="photo aboutMe" />
+                </picture>
+            </div>
 
-        <picture>
-            <source srcset="../img/about-me/mobile/img.jpg 1x, ../img/about-me/mobile/img.jpg 2x"
-                media="(min-width: 320px)" />
-            <img class="photo_aboutMe" src="../img/about-me/mobile/img.jpg" alt="photo aboutMe" />
-        </picture>
+            <div class="bio">
+                <h3 class="h3_aboutMe">BIO</h3>
+                <ul class="ul_aboutMe">
+                    <li>
+                        <p>I'm Lloyd Jefferson, a talented programmer specializing in software development. My
+                            expertise spans various programming
+                            languages and technologies, and I am dedicated to continually enhancing my skills. I thrive
+                            on seeking unconventional
+                            and creative solutions to problems, leveraging a high level of analytical skills to
+                            effectively tackle even the most
+                            challenging tasks.</p>
+                    </li>
+                    <li>
+                        <p>Adaptable to both independent and team-oriented work, I collaborate seamlessly with
+                            colleagues, exchanging ideas and
+                            finding optimal solutions. My professional maturity enables me to navigate challenges and
+                            stressful situations with a
+                            calm demeanor, maintaining a consistently high quality of work. Committed to
+                            self-improvement, I actively engage in
+                            studying new technologies and practices to stay current with the latest innovations in the
+                            field.</p>
+                    </li>
+                </ul>
+            </div>
 
-        <h3 class="h3_aboutMe">BIO</h3>
-        <ul class="ul_aboutMe">
-            <li>
-                <p>I'm Lloyd Jefferson, a talented programmer specializing in software development. My expertise spans
-                    various programming
-                    languages and technologies, and I am dedicated to continually enhancing my skills. I thrive on
-                    seeking
-                    unconventional
-                    and creative solutions to problems, leveraging a high level of analytical skills to effectively
-                    tackle
-                    even the most
-                    challenging tasks.
-                </p>
-            </li>
-            <li>
-                <p>Adaptable to both independent and team-oriented work, I collaborate seamlessly with
-                    colleagues,
-                    exchanging ideas and
-                    finding optimal solutions. My professional maturity enables me to navigate challenges and stressful
-                    situations with a
-                    calm demeanor, maintaining a consistently high quality of work. Committed to self-improvement, I
-                    actively engage in
-                    studying new technologies and practices to stay current with the latest innovations in the field.
+            <div class="education">
+                <h3 class="h3_aboutMe">EDUCATION</h3>
+                <ul class="ul_2_aboutMe">
+                    <li class="li_2_aboutMe">
+                        <svg class="icon-dot" width="24" height="24">
+                            <use href="../img/about-me/mobile/icons.svg#icon-dot"></use>
+                        </svg>
+                        2018 - 2019 / Frontend Development Diploma, GoIT IT School, New York
+                    </li>
+                    <li class="li_2_aboutMe">
+                        <svg class="icon-dot" width="24" height="24">
+                            <use href="../img/about-me/mobile/icons.svg#icon-dot"></use>
+                        </svg>
+                        2019 - 2020 / Advanced Web Development Certificate, GoIT IT School, New York
+                    </li>
+                    <li class="li_2_aboutMe">
+                        <svg class="icon-dot" width="24" height="24">
+                            <use href="../img/about-me/mobile/icons.svg#icon-dot"></use>
+                        </svg>
+                        2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+                    </li>
+                </ul>
+            </div>
 
-                </p>
-            </li>
-        </ul>
-        <h3 class="h3_aboutMe">EDUCATION</h3>
-        <ul class="ul_2_aboutMe">
-            <li class="li_2_aboutMe">
-                <svg class="icon-dot" width="24" height="24">
-                    <use href="/src/img/about-me/mobile/icons.svg#icon-dot"></use>
-                </svg>
-                <p>2018 - 2019 / Frontend Development Diploma, GoIT IT School, New York
-                </p>
-            </li>
-            <li class="li_2_aboutMe"><svg class="icon-dot" width="24" height="24">
-                    <use href="/src/img/about-me/mobile/icons.svg#icon-dot"></use>
-                </svg>
-                <p>2019 - 2020 / Advanced Web Development Certificate, GoIT IT School, New York</p>
-            </li>
-            <li class="li_2_aboutMe"><svg class="icon-dot" width="24" height="24">
-                    <use href="/src/img/about-me/mobile/icons.svg#icon-dot"></use>
-                </svg>
-                <p>2020 - 2022 / Advanced Blender Animation Techniques, Udemy</p>
-            </li>
-        </ul>
-        <h3 class="h3_aboutMe">ROLE</h3>
-        <ul class="ul_2_aboutMe">
-            <li class="li_2_aboutMe"><svg class="icon-dot" width="24" height="24">
-                    <use href="/src/img/about-me/mobile/icons.svg#icon-dot"></use>
-                </svg>Frontend development</li>
-            <li class="li_2_aboutMe"><svg class="icon-dot" width="24" height="24">
-                    <use href="/src/img/about-me/mobile/icons.svg#icon-dot"></use>
-                </svg>HeadlessCMS, Wordpress</li>
-            <li class="li_2_aboutMe"><svg class="icon-dot" width="24" height="24">
-                    <use href="/src/img/about-me/mobile/icons.svg#icon-dot"></use>
-                </svg>Blender (enjoy)</li>
-        </ul>
+            <div class="role">
+                <!--   <svg class="icon-decor" width="336" height="252">
+                    <use href="../img/about-me/mobile/icons.svg#icon-decor-bg-2-1"></use>
+                </svg> -->
+                <h3 class="h3_aboutMe">ROLE</h3>
+                <ul class="ul_2_aboutMe">
+                    <li class="li_2_aboutMe">
+                        <svg class="icon-dot" width="24" height="24">
+                            <use href="../img/about-me/mobile/icons.svg#icon-dot"></use>
+                        </svg>
+                        Frontend development
+                    </li>
+                    <li class="li_2_aboutMe">
+                        <svg class="icon-dot" width="24" height="24">
+                            <use href="../img/about-me/mobile/icons.svg#icon-dot"></use>
+                        </svg>
+                        HeadlessCMS, Wordpress
+                    </li>
+                    <li class="li_2_aboutMe">
+                        <svg class="icon-dot" width="24" height="24">
+                            <use href="../img/about-me/mobile/icons.svg#icon-dot"></use>
+                        </svg>
+                        Blender (enjoy)
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 </section>
 
