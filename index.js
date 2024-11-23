@@ -17,7 +17,7 @@ import{S as g,a as h,i as f}from"./assets/vendor-DsTmQDBr.js";(function(){const 
       <p class="my-projects-technologies">${e.technologies}</p>
       <div class="my-projects-card-row">
         <h3 class="my-projects-names">${e.title}</h3>
-        <a class="my-projects-link" href="${e.link}">
+        <a class="my-projects-link" href="${e.link}" target="_blank">
           Visit
           <svg class="icon-arrow" width="24" height="24">
             <use href="${T}#icon-up-right-arrow"></use>
