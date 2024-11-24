@@ -102,17 +102,18 @@
             <div class="photo">
                 <picture>
                     <!-- Изображение для экранов до 767px -->
-                    <source srcset="/portfolio2.0/assets/about-img-mb-CdZXOlPY.jpg 1x, ./img/about-me/about-img-mb2x.jpg 2x"
+                    <source srcset="../img/about-me/about-img-mb.jpg 1x, ../img/about-me/img@2x.jpg 2x"
                         media="(max-width: 767px)" />
-                    <!-- Изображение для экранов от 768px и выше -->
+                    <!-- Изображение для экранов от 768px до 1279px -->
                     <source srcset="/portfolio2.0/assets/about-img-tab-CYSMPfvS.jpg 1x, /portfolio2.0/assets/about-img-tab2x-CqiqHZQ9.jpg 2x"
-                        media="(min-width: 768px)" />
-                    <!-- Изображение для экранов от 1024px и выше -->
+                        media="(min-width: 768px) and (max-width: 1279px)" />
+                    <!-- Изображение для экранов от 1280px и выше -->
                     <source srcset="/portfolio2.0/assets/about-img-dp-PN3Okw7U.jpg 1x, /portfolio2.0/assets/about-img-dp2x-PIZJF0RE.jpg 2x"
                         media="(min-width: 1280px)" />
-                    <img class="photo_aboutMe" src="/portfolio2.0/assets/about-img-mb-CdZXOlPY.jpg" alt="photo aboutMe" />
+                    <img class="photo_aboutMe" src="/portfolio2.0/assets/about-img-tab-CYSMPfvS.jpg" alt="About me photo" />
                 </picture>
             </div>
+
 
             <div class="bio">
                 <h3 class="h3_aboutMe">BIO</h3>
