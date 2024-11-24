@@ -1,7 +1,7 @@
 .footer {
     padding-top: 40px;
     padding-bottom: 24px;
-    border-top: 1px solid var(--light-grey);
+    border-top: 1px solid #E4E5E6;
 }
 
 .footer__content {
@@ -15,17 +15,18 @@
 }
 
 .footer__logo {
-    font-family: var(--font-second), sans-serif;
+    font-family: 'Impact', sans-serif;
     font-weight: 400;
     font-size: 32px;
     line-height: 1;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     margin-bottom: 32px;
+    color: #292929;
 }
 
 .footer__logo-color {
-    color: var(--accet-green);
+    color: #00B068;
 }
 
 .footer__list {
@@ -36,7 +37,7 @@
 }
 
 .footer__list-item:hover {
-    color: var(--accet-green);
+    color: #00B068;
 }
 
 .footer__copyright {
