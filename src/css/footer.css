@@ -35,6 +35,10 @@
     gap: 24px;
 }
 
+.footer__list-item:hover {
+    color: var(--accet-green);
+}
+
 .footer__copyright {
     margin: 0 auto;
     text-align: center;
